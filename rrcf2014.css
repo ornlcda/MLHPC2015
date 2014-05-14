@@ -29,7 +29,13 @@ body {
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
+  /*background: #F00;*/
 }
+/*
+.navbar-wrapper .navbar a {
+	color: #FFF;
+}
+*/
 
 
 /* CUSTOMIZE THE CAROUSEL
