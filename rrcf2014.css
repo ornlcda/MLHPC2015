@@ -30,6 +30,10 @@ body {
   padding-right: 15px;
   padding-left: 15px;
   /*background: #F00;*/
+  /*background-color: #d3d3d3; */
+  background-color: #d4d4d2;
+  /* remove the gradient */
+  background-image: none;
 }
 /*
 .navbar-wrapper .navbar a {
