@@ -7,6 +7,11 @@ body {
   color: #5a5a5a;
 }
 
+ul.dates {
+	/* list-style-type:square; */
+	/* list-style-image: url('sqpurple.gif'); */
+}
+
 
 
 /* CUSTOMIZE THE NAVBAR
@@ -41,6 +46,15 @@ body {
 }
 */
 
+.nav {
+ margin-top: 20px;
+ margin-right: 15px;
+}
+
+a.brand img {
+	height: 70px;
+	margin: 8px 0;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
