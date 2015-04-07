@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>Rapid Response Cyber Forensics - Call for Papers and Demonstrations</title>
+    <title>Machine Learning in HPC Environments - Call for Papers</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
@@ -33,6 +33,7 @@
 
         <div class="navbar navbar-inverse navbar-static-top" role="navigation">
           <div class="container">
+
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -40,22 +41,29 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="brand" href="index.html"> <img src="images/RRCF_logo.png" alt="Rapid Response Cyber Forensics"></a>
+              	<a class="brand" href="index.html"> <img src="images/mlhpc.png" alt="Rapid Response Cyber Forensics"></a>
             </div>
+
             <div class="navbar-collapse collapse pull-right">
               <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="http://cci.drexel.edu/bigdata/bigdata2014/hotel.htm">Venue</a></li>
-                <li><a href="index.html#important-dates">Important Dates</a></li>
-                <li><a href="program.html">Program</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="http://sc15.supercomputing.org/attend">Venue</a></li>
+                <li><a href="#important-dates">Important Dates</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="organizingcommittee.html">Organizing Committee</a></li>
-                    <li class="divider"></li>
-                    <li><a href="programcommittee.html">Program Committee</a></li>
-                  </ul>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Information<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="cfp.html">Call for Papers</a></li>
+                        <li><a href="keynotespeakers.html">Keynotes</a></li>
+                        <li><a href="program.html">Program</a></li>
+                    </ul>
                 </li>
+                <li class="dropdown">
+          			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees<b class="caret"></b></a>
+          			<ul class="dropdown-menu">
+            			<li><a href="organizingcommittee.html">Organizing Committee</a></li>
+            			<li><a href="programcommittee.html">Program Committee</a></li>
+            		</ul>
+        		</li>
                 <li><a href="index.html#contact">Contact</a></li>
               </ul>
             </div>
@@ -74,42 +82,26 @@
       <div class="row">
         <div class="col-md-8">
 
-          <h2 class="featurette-heading">Call for <span class="text-muted">Papers &amp; Demonstrations</span></h2>
+          <h2 class="featurette-heading">Call for <span class="text-muted">Papers</span></h2>
           
           <p class="lead">
-            This workshop seeks to provide a forum for presentation and discussion of large-scale
-            forensic research aimed to address the operational needs of law enforcement. RRCF welcomes
-            full paper submission (up to 8 pages long) of original research, as well as short papers
-            (up to 4 pages long) on on-going projects to demonstrate feasibility of research and
-            its application on real cases.  Software demonstration papers (minimum of 2 pages) are
-            also encouraged. 
+            The intent of this workshop is to bring together researchers, practitioners, and scientific communities to discuss methods that utilize extreme scale systems for machine learning. This workshop will focus on the greatest challenges in utilizing HPC for machine learning and methods for exploiting data parallelism, model parallelism, ensembles, and parameter search. We invite researchers and practitioners to participate in this workshop to discuss the challenges in using HPC for machine learning and to share the wide range of applications that would benefit from HPC powered machine learning.
+          </p>
+          <p class="lead">
+            In recent years, the models and data available for machine learning (ML) applications have grown dramatically. High performance computing (HPC) offers the opportunity to accelerate performance and deepen understanding of large data sets through machine learning. Current literature and public implementations focus on either cloud-­‐based or small-­‐scale GPU environments. These implementations do not scale well in HPC environments due to inefficient data movement and network communication within the compute cluster, originating from the significant disparity in the level of parallelism. Additionally, applying machine learning to extreme scale scientific data is largely unexplored. To leverage HPC for ML applications, serious advances will be required in both algorithms and their scalable, parallel implementations.
           </p>
 
           <h3 class="topics-header">Topics will include but will not be limited to:</h3>
           
           <ul class="topics-list">
-            <li>Large scale video, image, and text triage</li>
-            <li>Scalable video analytics</li>
-            <li>Scalable text analytics</li>
-            <li>Recommender system for forensic analysis</li>
-            <li>Massive, fast, multi-modal data fusion for analysis</li>
-            <li>Loosely couple analytic platforms</li>
-            <li>Prioritization of HVTs (high value targets) for password cracking</li> 
-            <li>Automated large scale entity extraction and graph generation </li>
-            <li>Advanced metadata exploitation techniques</li>
-            <li>Advances in making the technically sophisticated easily usable by the officers on the ground</li>
-            <li>Multi-lingual document analysis</li>
-            <li>GPU-based forensic analytic techniques</li>
-            <li>Log file analysis</li>
-            <li>Data provenance</li>
-            <li>Incident response</li>
-            <li>Data exfiltration detection/response</li>
-            <li>Intrusion detection/response</li>
-            <li>Digital fraud detection/response</li>
-            <li>Digital evidence management architectures</li>
-            <li>Automated event/timeline discovery</li>
-            <li>Investigation automation</li>
-            <li>Large scale data harvesting from subpoenaed email archives</li>
+            <li>Machine learning models, including deep learning, for extreme scale systems</li>
+            <li>Enhancing applicability of machine learning in HPC (e.g. feature engineering, usability)</li>
+            <li>Learning large models/optimizing hyper parameters (e.g. deep learning, representation learning)</li>
+            <li>Facilitating very large ensembles in extreme scale systems</li>
+            <li>Training machine learning models on large datasets and scientific data</li>
+            <li>Overcoming the problems inherent to large datasets (e.g. noisy labels, missing data, scalable ingest)</li>
+            <li>Applications of machine learning utilizing HPC • Future research challenges for machine learning at large scale.</li>
+            <li>Large scale machine learning applications</li>
           </ul>
 
 
@@ -121,6 +113,11 @@
         <div class="col-md-3 col-md-offset-1">
           <h2 class="featurette-heading"></h2> <!-- spacing to match main column -->
           <h3>Important Links</h3>
+
+          <p class="text-muted">
+             As soon as they are available, links to templates and the submission portal will be provided here along with guidelines for submission.
+          </p>
+<!---
           <p>
             <a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html">Paper templates</a>
             <br/>
@@ -147,6 +144,7 @@
               published by the IEEE Computer Society Press, made available at the Conference. 
             </p>
           </div>
+-->
         </div>
 
       </div>
@@ -164,7 +162,7 @@
         <a name="contact"></a>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p><b>Contact:  Robert M. Patton</b>, pattonrm "at" ornl.gov</p>
-        <p>&copy; 2014 Oak Ridge National Laboratory</p>
+        <p>&copy; 2015 Oak Ridge National Laboratory</p>
       </footer>
 
     </div><!-- /.container -->
