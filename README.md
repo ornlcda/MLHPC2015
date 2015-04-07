@@ -1,3 +1,3 @@
-# Rapid Response Cyber Forensics Workshop
+# Machine Learing in HPC Environments Workshop
 
-Find out more at [RRCF2014](http://ornlcda.github.io/RRCF2014).
+Find out more at [MLHPC2015](http://ornlcda.github.io/MLHPC2015).
