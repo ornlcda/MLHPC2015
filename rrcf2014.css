@@ -106,7 +106,8 @@ a.brand img {
 /* Featurettes
 ------------------------- */
 
-.featurette-divider {
+
+.featurette-first-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
 
@@ -117,6 +118,21 @@ a.brand img {
   letter-spacing: -1px;
   margin-top: 130px;
 }
+
+/* Thin out the marketing headings */
+.featurette-name-heading {
+  extends: featurette-heading
+  font-size: 200%
+}
+
+.featurette-image {
+    width:150px;
+}
+
+
+
+
+
 
 
 /* Site Specific
