@@ -1,4 +1,3 @@
-RRCF2014
-========
+# Machine Learing in HPC Environments Workshop
 
-Main [RRCF 2014 workshop](http://ornlcda.github.io/RRCF2014) webpage.
+Find out more at [MLHPC2015](http://ornlcda.github.io/MLHPC2015).
