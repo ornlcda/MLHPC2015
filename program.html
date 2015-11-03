@@ -106,6 +106,16 @@
         <div class="col-md-7">
           <h2 class="lead">Asynchronous Parallel Stochastic Gradient Descent - A Numeric Core for Scalable Distributed Machine Learning Algorithms</h2>
           <p class="lead"><span class="text-muted">Janis Keuper and Franz-Josef Pfreundt</span></p>
+          <p>The implementation of a vast majority of machine learning (ML) algorithms boils down
+to solving a numerical optimization problem. In this context, Stochastic
+Gradient Descent (SGD) methods have long proven to provide good results, both
+in terms of convergence and accuracy. Recently, several parallelization approaches
+have been proposed in order to scale SGD to solve very large ML problems.
+At their core, most of these approaches are following a MapReduce scheme.
+This paper presents a novel parallel updating algorithm for SGD, which utilizes
+the asynchronous single-sided communication paradigm.
+Compared to existing methods, Asynchronous Parallel Stochastic Gradient Descent (ASGD) provides faster convergence,
+at linear scalability and stable accuracy.</p>
         </div>
         
       </div>
